@@ -20,3 +20,59 @@ The system doesn't stop at prediction. It creates a complete feedback loop where
 * 📦 Model versioning and registry
 * 📈 Interactive Streamlit dashboard
 * 🔗 End-to-end AI + Data + API workflow
+
+
+🏗️ System Architecture
+,
+                         User
+                          │
+                          ▼
+                 Streamlit Dashboard
+                          │
+                          ▼
+                     FastAPI
+                          │
+             ┌────────────┴────────────┐
+             ▼                         ▼
+      ML Risk Engine              PostgreSQL
+             │                         │
+             ▼                         │
+       Risk Assessment ◄───────────────┘
+             │
+             ▼
+        AI Agent
+        ┌────┴────┐
+        ▼         ▼
+      RAG      Risk Tool
+        │         │
+        ▼         ▼
+    ChromaDB   ML Model
+        │
+        ▼
+   Policy Context
+        │
+        └──────────┐
+                   ▼
+             AI Decision
+                   │
+                   ▼
+             Human Review
+                   │
+                   ▼
+            Feedback Dataset
+                   │
+                   ▼
+           Model Retraining
+                   │
+                   ▼
+           Evaluation Gate
+                   │
+          ┌────────┴────────┐
+          ▼                 ▼
+       Promote           Reject
+          │                 │
+          ▼                 ▼
+   New Model Version    Keep Active Model
+```
+
+
