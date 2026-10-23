@@ -1,0 +1,36 @@
+{
+    "models": [
+        {
+            "version": "anomaly_model_20260929_194820",
+            "model_file": "anomaly_model_20260929_194820.pkl",
+            "created_at": "2026-09-29 19:48:20",
+            "training_samples": 20,
+            "class_distribution": {
+                "legitimate": 15,
+                "suspicious": 5
+            },
+            "evaluation": {
+                "accuracy": 0.75,
+                "suspicious_precision": 0.0,
+                "suspicious_recall": 0.0,
+                "suspicious_f1": 0.0
+            }
+        },
+        {
+            "version": "anomaly_model_20260929_200842",
+            "model_file": "anomaly_model_20260929_200842.pkl",
+            "created_at": "2026-09-29 20:08:42",
+            "training_samples": 20,
+            "class_distribution": {
+                "legitimate": 15,
+                "suspicious": 5
+            },
+            "evaluation": {
+                "accuracy": 0.75,
+                "suspicious_precision": 0.0,
+                "suspicious_recall": 0.0,
+                "suspicious_f1": 0.0
+            }
+        }
+    ]
+}

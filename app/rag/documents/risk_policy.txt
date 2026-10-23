@@ -1,0 +1,70 @@
+FINANCIAL TRANSACTION RISK POLICY
+
+1. PURPOSE
+
+This policy defines the basic rules used to identify and review potentially risky financial transactions.
+
+2. TRANSACTION RISK LEVELS
+
+LOW RISK
+
+Transactions with normal behavioral patterns and no significant anomaly indicators may be classified as low risk.
+
+Low-risk transactions generally require no manual review unless another business rule is triggered.
+
+MEDIUM RISK
+
+Transactions showing unusual behavioral characteristics may be classified as medium risk.
+
+Examples include:
+- Moderate deviation from the customer's normal transaction amount.
+- Unusual transaction location.
+- Unusual device usage.
+- Increased transaction frequency.
+- Transaction activity outside the customer's normal operating hours.
+
+Medium-risk transactions should be monitored and may require additional verification.
+
+HIGH RISK
+
+Transactions showing strong indicators of unusual or potentially fraudulent behavior may be classified as high risk.
+
+Examples include:
+- Transaction amount significantly higher than the customer's normal transaction amount.
+- Large change compared with the previous transaction.
+- Transaction activity during unusual hours.
+- Transaction from an unusual location.
+- Transaction from an unfamiliar device.
+- Multiple unusual behavioral indicators occurring together.
+
+High-risk transactions should be sent for human review before approval.
+
+3. HUMAN REVIEW
+
+A high-risk transaction should be reviewed by an authorized financial risk analyst.
+
+The analyst should examine:
+- Customer transaction history.
+- Transaction amount.
+- Previous transaction behavior.
+- Location.
+- Device information.
+- Transaction timing.
+- Applicable business policies.
+
+4. MODEL OUTPUT
+
+The machine learning model provides a risk signal and should support, not replace, appropriate human review and business controls.
+
+Model predictions should be evaluated periodically using new transaction and review data.
+
+5. FEEDBACK
+
+Human review decisions should be recorded.
+
+Examples:
+- Confirmed suspicious transaction.
+- Legitimate transaction.
+- Requires additional investigation.
+
+Review feedback may be used in future model evaluation and retraining.

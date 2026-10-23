@@ -1,0 +1,5 @@
+transaction_id,decision,reviewer,comment,timestamp
+TX00001,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior,2026-09-29T18:00:00
+2,legitimate,human_reviewer,Reviewed transaction and confirmed it is legitimate.,2026-10-08T22:07:33.872928
+4,legitimate,human_reviewer,Reviewed by human and confirmed legitimate.,2026-10-23T18:22:11.488597
+6,legitimate,human_reviewer,Reviewed transaction and confirmed it is legitimate.,2026-10-23T19:01:01.909378

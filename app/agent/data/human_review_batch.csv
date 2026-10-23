@@ -1,0 +1,23 @@
+transaction_id,human_decision,reviewer,comment
+TX00001,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior
+TX00002,legitimate,risk analyst,Transaction appears consistent with normal customer behavior
+TX00003,suspicious,risk analyst,suspicious transaction
+TX00004,legitimate,risk analyst,legitimate transaction
+TX00005,investigate,risk analyst,spam
+TX00006,suspicious,risk analyst,suspicious transaction
+TX00007,investigate,risk analyst,spam inputs
+TX00008,suspicious,risk analyst,Enter choice: 1
+TX00009,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00010,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00011,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00012,legitimate,risk analyst,transaction appears consistent with normalcustomer behavior
+TX00013,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00014,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00015,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00016,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00017,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00018,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00019,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00020,legitimate,risk_analyst,Transaction appears consistent with normal customer behavior.
+TX00021,suspicious,risk_analyst,transaction appears irrelevent
+TX00022,suspicious,risk_analyst,transaction appears unusuall

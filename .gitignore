@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+*.log
+
+# ChromaDB generated files
+app/rag/chroma_db/
+
+# Local model/data artifacts
+*.pkl
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

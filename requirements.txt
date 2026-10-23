@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+pydantic
+python-dotenv
+chromadb
+sentence-transformers

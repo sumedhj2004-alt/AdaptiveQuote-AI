@@ -1,0 +1,1 @@
+"""AdaptiveQuote-AI application package."""
