@@ -17,3 +17,5 @@ app/rag/chroma_db/
 # OS files
 .DS_Store
 Thumbs.db
+# ChromaDB databases anywhere in project
+**/chroma_db/
